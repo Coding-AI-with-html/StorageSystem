@@ -51,12 +51,11 @@ void MainWindow::on_registerBtn_clicked()
                       if(query.exec()) {
                           QMessageBox::information(this, "Congratulations", "Registration complected!!");
                           query.finish();
-                          /*
                           this->close();
-                          SecSmoothShare secSmooth;
-                          secSmooth.setModal(true);
-                          secSmooth.exec();
-                          */
+                           SecDataqt5 secWindow;
+                          secWindow.setLabelTitle(username);
+                           secWindow.setModal(true);
+                           secWindow.exec();
 
 
 

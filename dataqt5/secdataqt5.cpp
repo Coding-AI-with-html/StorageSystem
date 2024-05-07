@@ -14,7 +14,7 @@ SecDataqt5::SecDataqt5(QWidget *parent) :
     datab_connection.setUserName("root");
     datab_connection.setPassword("");
     if(datab_connection.open()){
-        QMessageBox::information(this, "Success", "yey");
+
     } else{
          QMessageBox::information(this, "failed", "Connection failed to execute");
     }

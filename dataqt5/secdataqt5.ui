@@ -89,7 +89,7 @@ border-image: url(:/images/second.png)
    <widget class="QLabel" name="loggedID">
     <property name="geometry">
      <rect>
-      <x>690</x>
+      <x>760</x>
       <y>80</y>
       <width>71</width>
       <height>41</height>
