@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>file-sharing-service.png</file>
+        <file>second.png</file>
+    </qresource>
+</RCC>
